@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+	<script type="text/javascript" src="../../../jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="grakio.js"></script>
+
+	<title></title>
+</head>
+<body>
+	<div id="box">
+		<div class="gracz">Gracz 1<br>(X) Punkty:<div id="punkty1"></div></div>
+		<div id="plansza">
+			<div class="pole1x"><div id="p1" class='miejsce' onclick="gra('p1')"></div></div>
+			<div class="pole1x"><div id="p2" class="miejsce" onclick="gra('p2')"></div></div>
+			<div class="pole2x"><div id="p3" class="miejsce" onclick="gra('p3')"></div></div>
+			<br>
+			<div class="pole1"><div id="p4" class="miejsce" onclick="gra('p4')"></div></div>
+			<div class="pole2"><div id="p5" class="miejsce" onclick="gra('p5')"></div></div>
+			<div class="pole3"><div id="p6" class="miejsce" onclick="gra('p6')"></div></div>
+			<br>
+			<div class="pole1"><div id="p7" class="miejsce" onclick="gra('p7')"></div></div>
+			<div class="pole2"><div id="p8" class="miejsce" onclick="gra('p8')"></div></div>
+			<div class="pole3"><div id="p9" class="miejsce" onclick="gra('p9')"></div></div>
+		</div>
+		<div class="gracz">Gracz 2 <br>(O) Punkty:<div id="punkty2"></div></div>
+		<div style="clear: both;"></div>
+		<div id="Wynik" ></div>
+		<div id="reset" onclick="reset()">Zagraj jeszcze raz</div>
+		<a href="../index.html"><div id="back">Powrót do menu</div></a>
+		
+	</div>
+</body>
+</html>

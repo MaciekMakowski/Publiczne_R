@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <meta name="Kaywors" content="Odsyłacze">
+	 <meta http-equiv="content-leangue" content="pl">
+	 <link rel="Stylesheet" type="text/css" href="style_index.css"/>
+	 <link rel="shortcut icon" href="ico.png" />
+	 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet">
+	 <link rel="Stylesheet" type="text/css" href="css/fontello.css"/> 
+	 <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	 <script type="text/javascript" src="swap.js"></script>
+	
+	<title>Strona główna</title>
+</head>
+<body onload="odliczanie();">
+	<div id="container">
+		<div class="rectangle">
+			<div id="logo">
+				<a href="../../index.html" class="homelink">
+				Strona główna
+			</a>
+			</div>
+			<div id="zegar"> 
+			<script src="timer.js"></script>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<div class="square">
+			<a href="podstrony/samochody/index.html">
+				<div class="tile1">
+					<div class="icon-cab">
+						<div id="temat1">
+							Samochody
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="podstrony/pociagi/index.html">
+				<div class="tile6">
+					<div class="icon-train">
+						<div id="temat2">
+							Pociągi
+						</div>
+					</div>
+				</div>
+			</a>
+			<div style="clear: both;"></div>
+			<a href="podstrony/motocykle/index.html">
+				<div class="tile2">
+					<div class="icon-motorcycle">
+						<div id="temat1">
+							Motocykle
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="podstrony/statki/index.html">
+				<div class="tile3">
+					<div class="icon-ship">
+						<div id="temat2">
+							Statki
+						</div>
+					</div>
+				</div>
+			</a>
+			<div style="clear: both;"></div>
+			<a href="podstrony/calc/calc.html">
+				<div class="tile4">
+					<div class="icon-calc">
+						Kalkulator
+					</div>
+				</div>
+			</a>
+			<div style="clear: both;"></div>
+			
+		</div>
+		<div class="social_square">
+			
+				<div class="tile5">
+					
+					<a href="podstrony/galeria/index.html">
+						<div class="icon-camera">
+							Galeria	</div></a>
+
+							<div onclick="swapwlewo()"><i class="icon-angle-left"></i></div>
+							<div onclick="swapwprawo()"><i class="icon-angle-right"></i></div>
+							<div id="swap">
+				<script type="text/javascript">swap()</script>
+			</div>
+
+
+					
+				</div>
+			</a>
+			<div class="yt">
+				<a href="https://www.youtube.com/" class="sociallink" target="_blank">
+				<i class="icon-youtube-squared"></a></i>
+			</div>
+			<div class="fb">
+			<a href="https://www.facebook.com/" class="sociallink" target="_blank">
+			<i class="icon-facebook-squared"></i></a>
+			</div>
+			<div class="gp">
+				<a href="https://plus.google.com/discover" class="sociallink" target="_blank"><i class="icon-gplus"></i></a>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<div>
+				<a href="podstrony/Inne/index.html"><div class="tile7"><div class="icon-gamepad"> Gry i Aplikacje</div></div></a>
+				<div class="tw">
+				<a href="https://twitter.com/?lang=pl" class="sociallink" target="_blank"><i class="icon-twitter"></i></a>
+			
+				</div>
+			</div>
+
+		<div style="clear: both;"></div>
+	</div>
+
+</body>
+</html>

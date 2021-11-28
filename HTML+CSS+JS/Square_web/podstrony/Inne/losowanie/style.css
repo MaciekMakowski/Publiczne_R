@@ -1,0 +1,190 @@
+body
+{
+	background-color:#303030;
+	color: #ffffff;
+	font-family:'Lato',sans-serif;
+	font-size: 20px;
+	margin: 0 ! important;
+}
+#box
+{
+	width: 960px;
+	height: 660px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header
+{
+	width: 960px;
+	text-align: center;
+}
+hr
+{
+	position: fixed;
+	width: 960px;
+	margin-top: 400px;
+}
+.los > img
+{
+
+	position: relative;
+	margin-top: 80px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right:20px;
+	margin-top: 120px;
+	z-index:2;
+	transition: all ease-in-out 0.5s;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.los
+{
+	transition: ease-in-out 0.7s;
+	z-index:2;
+}
+/*#kub1
+{
+	transition: ease-in-out 0.7s;
+}
+#kub1:active
+{
+	transform: translateY(-100px);
+}
+#kub2:not(#wybor):hover{
+} 
+{
+	transition: ease-in-out 0.7s;
+}
+#kub2:active
+{
+	transform: translateY(-100px);
+}
+#kub3
+{
+	transition: ease-in-out 0.7s;
+}
+#kub3:active
+{
+	transform: translateY(-100px);
+}
+*/
+
+#point
+{
+	margin-top: 70px;
+	font-size: 300px;
+	color: red;
+	z-index:1;
+	position: fixed;
+	margin-left: 445px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+footer
+{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: #222222;
+	position: fixed;
+	left: 0;
+	bottom: 0%;
+	
+}
+.swap1
+{
+	transform: translateX(-320px);
+}
+.swap2
+{
+	transform: translateX(0px);
+}
+.swap3
+{
+	transform: translateX(320px);
+}
+#money
+{
+	margin-left: 200px;
+	float: left;
+	width: 150px;
+	height: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	border: dashed 2px grey;
+	border-radius: 5px;
+	text-align: center;
+}
+#alarm
+{
+	position: fixed;
+	color: red;
+	font-size: 14px;
+	margin-top: 50px;
+	margin-left: 170px;
+	float: left;
+}
+button
+{
+	border:2px white dashed;
+	border-radius: 5px;
+	width: 175px;
+	height: 30px;
+	background-color: grey;
+	color: white;
+	font-size: 16px;
+	margin-left: 50px;
+	transition: transform ease-in-out 0.4s;
+	float: left;
+}
+button:hover
+{
+
+	box-shadow: 1px 1px 10px green;
+	transform: scale(1.05);
+}
+#wynik
+{
+	float: left;
+	text-align: center;
+	border:2px white dashed;
+	border-radius: 5px;
+	margin-left: 50px;
+	width: 175px;
+	height: 25px;
+	padding-top: 5px;
+	background-color: grey;
+	box-shadow: black 5px 5px 10px;
+}
+#helper
+{
+	margin-top: 15px;
+	width: 400px;
+	height: 30px;
+	font-size: 28px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+}
+
+.icon-angle-left
+{
+	margin-top: -100px;
+	margin-left: 70px;
+	float: left;
+	transition: 0.4s ease-in-out all;
+	color: white;
+}
+.icon-angle-left:hover
+{
+	margin-left: 40px;
+	transform: scale(1.1);
+}
+/* 125     445    765
