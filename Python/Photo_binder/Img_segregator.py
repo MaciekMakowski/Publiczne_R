@@ -4,6 +4,8 @@ import shutil
 from tqdm import tqdm
 from PIL import Image
 
+#segregate by years
+
 PATH = '' #Path to files
 EXTENSIONS = ('jpg', 'png', 'bmp', 'gif', 'jpeg', 'rav', 'heif', 'tiff', 'tif')
 DESTINATION_PATH = '' #Destiation to copied files
