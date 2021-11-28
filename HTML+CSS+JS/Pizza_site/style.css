@@ -1,0 +1,289 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-items: center;
+  font-size: 2vh;
+  background-image: url(img/theme2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+}
+
+nav #logo {
+  margin-left: 5vh;
+  color: white;
+}
+
+nav img {
+  height: 10vh;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  float: left;
+}
+
+nav img:hover {
+  -webkit-transform: rotate(360deg) scale(0.9);
+          transform: rotate(360deg) scale(0.9);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav h1 {
+  font-size: 3vh;
+  float: left;
+}
+
+nav p {
+  float: left;
+  margin-left: 3vh;
+  font-size: 3vh;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  position: relative;
+  color: white;
+}
+
+nav p::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 0.5vh;
+  background-color: white;
+  -webkit-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+  -webkit-transition: 300ms width;
+  transition: 300ms width;
+}
+
+nav p:hover::before {
+  width: 100%;
+}
+
+nav #buttons {
+  float: right;
+  margin-right: 5vh;
+}
+
+main #container article:first-child {
+  height: 90vh;
+  padding-top: 0;
+}
+
+main #container article {
+  height: 95vh;
+  width: 100%;
+  padding-top: 5vh;
+}
+
+main #container .box {
+  width: 50%;
+  float: left;
+}
+
+main #container #menu_title {
+  font-size: 5vh;
+  text-align: center;
+  background: white;
+}
+
+main #container .box_menu {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+main #container .categories {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 5vh;
+  font-size: 4vh;
+}
+
+main #container .categories .categ_name {
+  width: 40%;
+  height: 4vh;
+  margin-left: 5%;
+}
+
+main #container #secondElement .categories {
+  background: white;
+  color: black;
+}
+
+main #container #thirdElement .categories {
+  background: black;
+  color: white;
+}
+
+main #container .menu_position {
+  width: 80%;
+  height: 8vh;
+  margin-top: 1vh;
+}
+
+main #container .menu_position .title_pizza {
+  font-size: 3vh;
+  font: bold;
+}
+
+main #container .menu_position .price {
+  font-size: 3vh;
+  font: bold;
+  float: right;
+}
+
+main #container #box_left .menu_position {
+  margin-left: 10%;
+}
+
+main #container #box_right .menu_position {
+  margin-left: 10%;
+}
+
+main #container .dline {
+  border-top: dashed 0.1vh;
+}
+
+main #container #firstElement {
+  background-color: transparent;
+}
+
+main #container #firstElement #leftbox_fE {
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+  text-shadow: 0.5vh 0.5vh black;
+}
+
+main #container #firstElement #rightbox_fE {
+  background: transparent;
+}
+
+main #container #secondElement {
+  background-color: black;
+  color: white;
+}
+
+main #container #secondElement .dline {
+  color: black;
+}
+
+main #container #thirdElement {
+  background-color: white;
+  color: black;
+}
+
+main #container #thirdElement .dline {
+  color: white;
+  background: black;
+}
+
+main #container #aboutUs {
+  background-color: white;
+}
+
+main #container #aboutUs .box_au {
+  margin-left: 5%;
+  height: 33%;
+  width: 95%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #container #aboutUs .box_au .pic_au {
+  width: 30%;
+  float: left;
+}
+
+main #container #aboutUs .box_au .pic_au img {
+  width: 40vh;
+  float: left;
+  border-radius: 10%;
+}
+
+main #container #aboutUs .box_au #pizza_boy {
+  margin-top: 10vh;
+}
+
+main #container #aboutUs .box_au .text_au {
+  width: 45%;
+  text-align: center;
+  float: left;
+}
+
+main #container #aboutUs .box_au .empty {
+  width: 15%;
+  height: 100%;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  height: 50vh;
+  background-color: #790000;
+}
+
+footer .box {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+footer p {
+  font-size: 3vh;
+}
+
+footer .rekord {
+  width: 100%;
+  height: 20%;
+  margin-top: 2%;
+  margin-left: 5vh;
+}
+
+footer #pizzeriaName {
+  font-size: 5vh;
+}
+
+footer #openHours {
+  padding-top: 3%;
+  height: 13%;
+  font-size: 3vh;
+}
+
+footer img {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+}
+
+footer #mapImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #mapImg a {
+  margin-left: 35%;
+}
+/*# sourceMappingURL=style.css.map */

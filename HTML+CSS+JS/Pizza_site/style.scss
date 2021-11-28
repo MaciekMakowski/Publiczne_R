@@ -1,0 +1,242 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-items: center;
+    font-size: 2vh;
+    background-image: url(img/theme2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    #logo{
+        margin-left: 5vh;
+        color: white;
+    }
+    img{
+        height: 10vh;
+        transition: all ease-in-out 0.3s;
+        cursor: pointer;
+        float: left;
+    }
+    img:hover
+    {
+        transform: rotate(360deg) scale(0.9);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    h1{
+        font-size: 3vh;
+        float: left;
+    }
+    p{
+        float: left;
+        margin-left: 3vh;
+        font-size: 3vh;
+        cursor: pointer;
+        transition: all ease-in-out 0.3s;
+        position: relative;
+        color:white;
+
+    }
+    p::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 0.5vh;
+        background-color: white;
+        transform: translate( -50%, 100%);
+        transition: 300ms width;
+      }
+      p:hover::before {
+        width: 100%;
+      }
+    #buttons
+    {
+        float: right;
+        margin-right: 5vh;
+    }
+}
+main{
+    #container{
+        article:first-child{
+            height: 90vh;
+            padding-top: 0;
+        }
+        article{
+            height: 95vh;
+            width: 100%;
+            padding-top:5vh;
+        }
+        .box{
+            width: 50%;
+            float: left;
+        }
+        #menu_title{
+            font-size: 5vh;
+            text-align: center;
+            background: white;
+        }
+        .box_menu{
+            width: 50%;
+            height: 50%;
+            float: left;
+        }
+        .categories{
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            height: 5vh;
+            font-size: 4vh;
+            .categ_name{
+                width: 40%;
+                height: 4vh;
+                margin-left: 5%;
+            }
+        }
+        #secondElement .categories
+        {
+            background: white;
+            color:black;
+        }
+        #thirdElement .categories
+        {
+            background:black;
+            color:white;
+        }
+        .menu_position{
+            width: 80%;
+            height: 8vh;
+            margin-top: 1vh;
+
+            .title_pizza{
+                font-size: 3vh;
+                font:bold;
+            }
+            .price{
+                font-size: 3vh;
+                font:bold;
+                float: right;
+            }
+        }
+        #box_left .menu_position{
+            margin-left: 10%;
+        }
+        #box_right .menu_position{
+            margin-left: 10%;
+        }
+
+        .dline{
+            border-top: dashed 0.1vh;
+        }
+        #firstElement{
+            background-color: transparent;
+            #leftbox_fE{
+                font-size: 10vh;
+                text-align: center;
+                color: white;
+                text-shadow: 0.5vh 0.5vh black;
+            }
+            #rightbox_fE{
+                background: transparent;
+            }
+        }
+        #secondElement{
+            background-color: black;
+            color:white;
+            .dline{
+            color:black;
+            }
+        }
+        #thirdElement{
+            background-color: white;
+            color:black;
+
+            .dline{
+                color:white;
+                background: black;
+                }
+        }
+        #aboutUs{
+            background-color: white;
+            .box_au{
+                margin-left: 5%;
+                height: 33%;
+                width: 95%;
+                align-items: center;
+                display: flex;
+                .pic_au{
+                    width: 30%;
+                    float: left;
+                }
+                .pic_au img{
+                    width: 40vh;
+                    float: left;
+                    border-radius: 10%;
+                }
+                #pizza_boy{
+                    margin-top:10vh;
+                }
+                .text_au{
+                    width: 45%;
+                    text-align: center;
+                    float: left;
+                }
+
+                .empty{
+                    width: 15%;
+                    height: 100%;
+                }
+            }
+        }
+
+    }
+}
+footer{
+    color:white;
+    .box{
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(121, 0, 0);
+    p{
+        font-size: 3vh;
+    }
+    .rekord{
+        width: 100%;
+        height: 20%;
+        margin-top: 2%;
+        margin-left: 5vh;
+    }
+    #pizzeriaName{
+        font-size: 5vh;
+    }
+    #openHours{
+        padding-top: 3%;
+        height: 13%;
+        font-size: 3vh;
+    }
+    img{
+        width: 40vh;
+        height: 40vh;
+        border-radius: 50%;
+    }
+    #mapImg{
+        display: flex;
+        align-items: center;
+
+        a{
+            margin-left: 35%;
+        }
+    }
+}
