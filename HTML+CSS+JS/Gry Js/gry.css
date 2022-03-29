@@ -1,0 +1,143 @@
+body
+{
+	background-color:#303030;
+	color: #ffffff;
+	font-family:'Lato',sans-serif;
+	font-size: 20px;
+	margin: 0 ! important;
+	width: 100%;
+	color: white;
+	text-decoration:none;
+	padding: 0;
+	height: 100%;
+
+}
+#box
+{
+min-height: 100%;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+#top
+{
+	font-size: 50px;
+	text-shadow: 0px 0px 10px #33FF66;
+	padding-top: 5px;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: #414141;
+	border-bottom: 2px dashed #33FF66;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+#menu
+{
+	margin: auto;
+	background-color:#414141;
+	width: 450px;
+	height: 520px;
+	margin-top: 20px;
+	border:2px solid #660099;
+	border-radius: 50px;
+	padding-bottom: 50px;
+}
+#stopka
+{
+position: fixed;
+width: 100%;
+height: 25px;
+float: left;
+background-color: #202020;
+color: white;
+text-align: center;
+bottom: 0;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+.okno
+{
+	margin-left: 55px;
+	margin-top: 25px;
+	width: 140px;
+	height: 100px;
+	float: left;
+	border-radius: 30px;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+	color: #DDDDDD;
+	text-shadow: 5px 5px 10px black;
+	font-size: 28px;
+	padding-top: 40px;
+	background-color: #303030;
+	border: 1px solid #303030;
+	box-shadow: 5px 5px 10px black;
+}
+#Ap1
+{
+
+}
+#Ap2
+{
+
+}
+#Ap3
+{
+	padding-top: 20px;
+	height: 120px;
+	text-align: center;
+}
+#Ap4
+{
+
+}
+#Ap5
+{
+
+}
+#Ap6
+{
+
+}
+#Ap1:hover
+{
+	background: linear-gradient(to bottom,#CC0066 0%,#FF0099 100%);
+	border: 1px solid #330033;
+	box-shadow: 0px 0px 30px #FF0099;
+}
+#Ap2:hover
+{
+	border: 1px solid #330033;
+	background: linear-gradient(to bottom,#990099 0%,#CC33CC 100%);
+	box-shadow: 0px 0px 30px #CC33CC;
+}
+#Ap3:hover
+{
+	border: 1px solid #330033;
+	background: linear-gradient(to bottom,#9933CC 0%,#9966FF 100%);
+	box-shadow: 0px 0px 30px #9966FF;
+}
+#Ap4:hover
+{
+	border: 1px solid #330033;
+	background: linear-gradient(to bottom,#CC0099 0%,#CC33FF 100%);
+	box-shadow: 0px 0px 30px #CC33FF;
+}
+#Ap5:hover
+{
+	border: 1px solid #330033;
+	background: linear-gradient(to bottom,#990066 0%,#CC0099 100%);
+	box-shadow: 0px 0px 30px #CC0099;
+}
+#Ap6:hover
+{
+	border: 1px solid #330033;
+	background: linear-gradient(to bottom,#990066 0%,#CC0099 100%);
+	box-shadow: 0px 0px 30px #CC0099;
+}
+.okno:hover
+{
+	text-shadow: 0px 0px 20px #FF99FF;
+	transform: scale(0.9);
+}
