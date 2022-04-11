@@ -1,1 +1,1 @@
-# Publiczne_R
+#  Repozytoruim z moimi pracami udotępnione publicznie.
